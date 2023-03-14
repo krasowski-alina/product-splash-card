@@ -70,8 +70,16 @@ p {
 /* =================
     Form
    ================= */
-   
 
 /* =================
     Media queries 
    ================= */
+    @media (min-width: 575px) {
+        body {
+            display: flex;
+        }
+        .main-content,
+        .intro {
+            flex-basis: 50%;
+}
+    }
