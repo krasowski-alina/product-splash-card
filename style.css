@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
@@ -66,7 +70,10 @@ p {
 .main-content {
     align-items: center ;
     padding-top: 2.5em; /* 40 / 16 = 2.5 */
-
+}
+.main-content p,
+form {
+    max-width: 450px;
 }
 .img-main {
     width: 120px;
